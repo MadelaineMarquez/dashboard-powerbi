@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Informes</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+        .card { width: 300px; border: 1px solid #ccc; padding: 10px; border-radius: 10px; cursor: pointer; transition: 0.3s; }
+        .card:hover { box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+        img { width: 100%; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Informes de Power BI</h1>
+    <div class="container">
+        <div class="card" onclick="window.location.href='https://app.powerbi.com/view?r=LINK1'">
+            <img src="https://via.placeholder.com/300" alt="Informe 1">
+            <p>Reporte de Ventas</p>
+        </div>
+        <div class="card" onclick="window.location.href='https://app.powerbi.com/view?r=LINK2'">
+            <img src="https://via.placeholder.com/300" alt="Informe 2">
+            <p>Reporte de Inventarios</p>
+        </div>
+        <div class="card" onclick="window.location.href='https://app.powerbi.com/view?r=LINK3'">
+            <img src="https://via.placeholder.com/300" alt="Informe 3">
+            <p>Reporte de Mermas</p>
+        </div>
+    </div>
+</body>
+</html>
